@@ -1,14 +1,17 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-    class EntryPoint
+using System.Collections;
+using System.Collections.Generic;
+
+class EntryPoint
     {
         static void Main()
         {
         char[] charactersToSplitBy = {',',' '};
         string characters = "TheThief TheMuse TheRat TheSage TheTroll TheMoney TheCoder ThePresident " +
             "TheLame TheHustler TheChain TheMusic";
-        string creatures = "TangTangila, Flaunchy, Hemogoblin, FlyingRat, DangerDog, BlueSnake";
+        string creatures = "TangTangila, Flaunchy, Hemogoblin, FlyingRat, DirtyDog, BlueSnake";
         
         string[] splitCharacters = characters.Split(' ');//The split command seperates the information by a character
         string[] splitCreatures = creatures.Split(charactersToSplitBy, StringSplitOptions.RemoveEmptyEntries);
@@ -29,6 +32,27 @@ using System;
         foreach (var line in pageSource)
         {
             Console.WriteLine(line);
+        }
+
+        int startIndex = 0;
+        int length = 0;
+        List<string> links = new List<string>();
+
+        foreach (var link in pageSource)
+        {
+            if (link.Contains(@"""http://testing.todvachev.com"))
+            {
+                startIndex = link.IndexOf('"') + 1;
+                length = link.LastIndexOf('"') - startIndex;
+                links.Add(link.Substring(startIndex, length));
+            
+            }
+        }
+
+        foreach (var link in links)
+        {
+            Console.WriteLine(link);
+
         }
         }
     }

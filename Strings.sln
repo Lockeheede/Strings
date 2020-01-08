@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Trimming", "02. Trimming\02. Trimming.csproj", "{D592AA3B-39B8-44BC-B9B9-190EC3853F9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Splitting Strings", "01. Splitting Strings\01. Splitting Strings.csproj", "{F7AC4137-A515-4287-99A2-5DBA8C36E76E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Substrings", "03. Substrings\03. Substrings.csproj", "{91E39B92-95B5-4165-8023-B1C5687B98DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F7AC4137-A515-4287-99A2-5DBA8C36E76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7AC4137-A515-4287-99A2-5DBA8C36E76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7AC4137-A515-4287-99A2-5DBA8C36E76E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
