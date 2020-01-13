@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Splitting Strings", "01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Substrings", "03. Substrings\03. Substrings.csproj", "{91E39B92-95B5-4165-8023-B1C5687B98DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Removing", "04. Removing\04. Removing.csproj", "{0579CEC7-4DF9-4A07-B11F-DCD794038010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91E39B92-95B5-4165-8023-B1C5687B98DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
