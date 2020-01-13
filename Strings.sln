@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Substrings", "03. Subst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Removing", "04. Removing\04. Removing.csproj", "{0579CEC7-4DF9-4A07-B11F-DCD794038010}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. StringBuilder", "05. StringBuilder\05. StringBuilder.csproj", "{F10C7E31-997B-4FD9-9503-3C33B945F456}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0579CEC7-4DF9-4A07-B11F-DCD794038010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10C7E31-997B-4FD9-9503-3C33B945F456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10C7E31-997B-4FD9-9503-3C33B945F456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10C7E31-997B-4FD9-9503-3C33B945F456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10C7E31-997B-4FD9-9503-3C33B945F456}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
